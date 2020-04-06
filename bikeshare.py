@@ -2,11 +2,15 @@ import time
 import pandas as pd
 import numpy as np
 
+# CITY_DATA
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Define Months
 months = ['january','february','march','april','may','june']
+
+# Define Week_Days
 week_days = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
 
 def get_filters():
