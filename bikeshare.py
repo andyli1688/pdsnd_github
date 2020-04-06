@@ -30,7 +30,7 @@ def get_filters():
         print('Please reenter your city choice!')
         city = input().lower() 
     
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # Get user input for month (all, january, february, ... , june)
     print('Please Enter your month choice(all means all selected)!')
     month = input().lower()
     while(month not in ['all','january','february','march','april','may','june']):
